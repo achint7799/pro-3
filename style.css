@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2B2922;
+}
+
+.nav-logo{
+    display: inline;
+    width: 110px;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+
+}
+.navlist{
+    display: inline;
+    color: #c4bfae;
+    position: relative;
+    left: 600px;
+    width: 300px;
+    top: 40px;
+    font-family: "Red Rose";
+   
+}
+.nav-list{
+    display: inline;
+    position: relative;
+    list-style-type: none;
+    width: 100%;
+}
+.list-items{
+    display: inline;
+    position: relative;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+.nav-list :first-child{
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.nav-button{
+    display: inline;
+    position: absolute;
+    right: 150px;
+    top: 30px;
+}
+.nav-btn{
+    font-family: "Red Rose";
+    color: #cdc399;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #cdc399;
+    border-radius: 8px;
+
+}
+
+.section-1{
+    display: block;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.section-1-col-1{
+    display: inline;
+    position: relative;
+    left: 80px;
+    top: 50px;
+    
+
+}
+
+.section-1-col-1 h1{
+    font-family: "Red Rose";
+    color: #ffffff;
+    position: relative;
+    font-size: 90px;
+
+
+}
+.section-1-col-2{
+    display: inline;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+
+}
+
+.section-1-col-2 p{
+    font-family: "Red Rose";
+    color: #c4bfae;
+    position: relative;
+    font-size: 26px;
+
+}
+
+.section-image{
+    display: block;
+    background-image: url("./assets/pr03\ bcg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+
+
+}
+
+
